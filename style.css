@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-color: #468966;
+  background-color: #16325B;
 }
 
 .nav-link {
@@ -19,7 +19,12 @@ body {
 }
 
 
+.card-body {
+  background-color: #EEF7FF;
+}
+
+
 .footer {
-  background-color: #343131;
+  background-color: #201E43;
   color:white;
 }
