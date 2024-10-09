@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #134B70;
 }
 
 .header {
@@ -23,6 +24,14 @@ body {
   background-color: #EEF7FF;
 }
 
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02); /* Sedikit memperbesar kartu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
 
 .footer {
   background-color: #201E43;
